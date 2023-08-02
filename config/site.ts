@@ -61,7 +61,7 @@ export const siteConfig = {
 		instagram: "https://instagram.com/gamevaultx",
 		twitter: "https://twitter.com/gamevaultx",
 		docs: "https://nextui-docs-v2.vercel.app",
-		discord: "https://discord.gg/9b6yyZKmH4",
+		discord: "https://discord.gg/",
 		download: "/download",
 		about: "/about",
         sponsor: "https://patreon.com/"
