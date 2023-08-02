@@ -63,6 +63,7 @@ export const siteConfig = {
 		docs: "https://nextui-docs-v2.vercel.app",
 		discord: "https://discord.gg/9b6yyZKmH4",
 		download: "/download",
+		about: "/about",
         sponsor: "https://patreon.com/jrgarciadev"
 	},
 };

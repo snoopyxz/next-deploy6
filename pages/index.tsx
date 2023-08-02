@@ -34,7 +34,7 @@ export default function IndexPage() {
 						isExternal
 						as={NextLink}
 						className={buttonStyles({ variant: "bordered", radius: "full" })}
-						href={siteConfig.links.instagram}
+						href={siteConfig.links.about}
 					>
 						
 						About
