@@ -126,7 +126,7 @@ export const Navbar = () => {
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <Link isExternal href={siteConfig.links.instagram}>
-          <GithubIcon className="text-default-500" />
+          <GrInstagram className="text-default-500" />
         </Link>
         <ThemeSwitch />
 				<NavbarMenuToggle />
