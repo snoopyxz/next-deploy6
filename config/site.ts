@@ -40,6 +40,10 @@ export const siteConfig = {
 			label: "About",
 			href: "/about",
 		},
+		{
+			label: "Donate",
+			href: "https://patreon.com/",
+		},
 	],
 	links: {
 		instagram: "https://instagram.com/gamevaultx",
