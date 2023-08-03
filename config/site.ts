@@ -51,6 +51,9 @@ export const siteConfig = {
 		docs: "https://nextui-docs-v2.vercel.app",
 		discord: "https://discord.gg/Sf5vewWdrV",
 		download: "/download",
+		windows: "",
+		linux: "",
+		macos: "",
 		about: "/about",
         sponsor: "https://patreon.com/"
 	},
