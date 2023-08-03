@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(to right bottom, #000000, #000000, #000000, #000000, #000000, #000000, #000000, #24020d, #48041a, #6c0627, #900834, #b40a41, #d80e53);
+    height: 100h;
+    margin: 0;
+    color: #ffffff; /* Set the text color to white for better visibility on the dark background */
+  }
+  

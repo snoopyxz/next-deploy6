@@ -104,7 +104,7 @@ export const Navbar = () => {
 					<Link isExternal href={siteConfig.links.discord}>
 						<DiscordIcon className="text-default-500" />
 					</Link>
-					<ThemeSwitch />
+					
 				</NavbarItem>
 				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
 				
@@ -128,7 +128,7 @@ export const Navbar = () => {
         <Link isExternal href={siteConfig.links.instagram}>
           <GrInstagram className="text-default-500" />
         </Link>
-        <ThemeSwitch />
+        
 				<NavbarMenuToggle />
       </NavbarContent>
 
