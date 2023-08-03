@@ -14,9 +14,16 @@ import { CircularProgress } from "@nextui-org/react";
 import { NotificationIcon } from "@/components/NotificationIcon";
 import { CheckIcon } from "@/components/CheckIcon";
 import { Spinner } from "@nextui-org/react";
+import {Input} from "@nextui-org/react";
+
+
 
 export default function IndexPage() {
+  const colors = [
+    "danger",
+  ];
   return (
+    
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         {/* Section for v23.09 */}
@@ -32,6 +39,8 @@ export default function IndexPage() {
             In Development
           </Chip>
         </div>
+
+       
 
         <div className="flex gap-4">
           <Chip
@@ -120,12 +129,29 @@ export default function IndexPage() {
         <div className="center">
           <Image
             isBlurred
-            width={370}
+            width={300}
             height={600}
             src="https://app.requestly.io/delay/2000/https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
             alt="NextUI Album Cover"
           />
         </div>
+        <br />
+
+        <div className="center">
+      {colors.map((color) => (
+        <Input
+          key={color}
+          
+          isReadOnly
+          color="danger"
+          label="Support Email"
+          defaultValue="gamevaulthelp@gmail.com"
+          className="max-w-[220px]"
+        />
+      ))}
+    </div>
+    
+
       </section>
     </DefaultLayout>
   );
