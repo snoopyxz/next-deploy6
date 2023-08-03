@@ -40,22 +40,6 @@ export const siteConfig = {
 			label: "About",
 			href: "/about",
 		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
 	],
 	links: {
 		instagram: "https://instagram.com/gamevaultx",
