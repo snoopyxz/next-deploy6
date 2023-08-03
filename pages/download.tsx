@@ -80,6 +80,7 @@ export default function IndexPage() {
 					</Link>
 
 				</div>
+				<br />
 				<Image
       isBlurred
       width={600}
