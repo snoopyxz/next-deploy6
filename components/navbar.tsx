@@ -32,6 +32,7 @@ import { Logo } from "@/components/icons";
 import React from "react";
 import {Chip} from "@nextui-org/react";
 import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
+import MyLogo from '@/public/logo.svg';
 
 export const Navbar = () => {
 	const searchInput = (
@@ -63,6 +64,7 @@ export const Navbar = () => {
 				<NavbarBrand className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						<Logo />
+						
 						<p className="font-bold text-inherit">GameVault</p>
 					</NextLink>
 					<div className="flex gap-4 items-center">
